@@ -1,0 +1,80 @@
+@import url("CSS/HEADER.css");
+@import url("CSS/footer.css");
+@import url("/CSS/responsive.css");
+@import url("/CSS/biographie.css");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin:0%;
+    border:0%;
+    padding: 0%;
+}
+.listes { display: grid;
+        grid-area: initial;
+        gap: 30px;
+        margin: 60px auto;
+       justify-content: space-around;
+        grid-template-columns: 1fr 1fr;
+    
+}
+
+.list{
+    display: grid;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 10px;
+}
+.bienvenue{
+    display: grid;
+    font-size: medium;
+    background-color: aliceblue;
+    justify-content: left;
+    border: 50px;
+    padding: 10px;
+
+}
+
+.bienvenue p{
+     font-family: 'Times New Roman', Times, serif, cursive;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style:inherit;
+}
+#lien a{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: large;
+    font-style:normal;
+}     
+
+#lien{
+    justify-content: flex-end;
+    display: flex;
+
+}
+#lien a:hover{
+   color: darkblue;
+} 
+
+main{
+    display: grid;
+    background-color: lightblue;
+    
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+main{
+    font-family: "Dancing Script", cursive;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

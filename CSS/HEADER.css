@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+    font-size: larger;
+    font-family: "Dancing Script", cursive;
+}
+
+#menu-list {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+   color: black;
+  
+   
+    gap: 2rem;
+    list-style: none;
+    font-size: large;
+    font-weight: 100;
+}
+#logo img a{
+    display:flex;
+    align-items: flex-start;
+
+} 
+
+#titre a h1:hover{
+    font-weight: bold; color: blue;
+
+} 
+
+#menu-list li a:hover{
+color: blue;
+} 
+
+
+
+     
+#menu-list{
+    display: none;
+    list-style: none;
+    flex-direction: column;
+}
+
+#menu-list.active{
+    display: flex;
+    
+}
+.barre{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    position: absolute;
+}
+#menu-toggle{
+display: flex;
+position: relative;
+margin-right: 10px;
+width:33px;
+height: 25px;
+background-color: transparent;
+border: none;
+}
+.barre:nth-child(2){
+    top:8px;
+}
+.barre:nth-child(3){
+    top:16px;
+}
+#menu-toggle.expanded .barre:nth-child(2){
+    opacity: 0;
+}
+
+#menu-toggle.expanded .barre:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+#menu-toggle.expanded .barre:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+

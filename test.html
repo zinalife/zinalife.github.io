@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu-list{
+    display: none;
+    list-style: none;
+    flex-direction: column;
+}
+
+#menu-list.active{
+    display: flex;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+    <button id="menu-toggle">Menu</button>
+    <UL id="menu-list">
+        <li><a href="../HTML/Photos.html">Photos</a></li>
+        <li><a href="../HTML/Vidéos.html">Vidéos</a></li>
+        <li><a href="../HTML/projets.html">Projets</a></li>
+        <li><a href="../HTML/Sites-web.html">Sites web</a></li>
+    </UL>
+</nav>
+
+    </header>
+    <script>
+   var menu = document.getElementById("menu-list");
+  var menuToggle = document.getElementById("menu-toggle");
+  menuToggle.addEventListener("click", change);
+  function change(){
+    menu.classList.toggle("active");
+  }     
+    </script>
+</body>
+
+</html>
