@@ -3,10 +3,10 @@ header {
     grid-template-columns: auto;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
-    padding: 5px;
+    background: linear-gradient(135deg, rgb(75, 73, 73) 0%, rgb(61, 61, 241) 50%, rgb(110, 110, 167) 100%);
     font-size: larger;
     font-family: "Dancing Script", cursive;
+    gap: 2em;
 }
 
 #menu-list {
@@ -23,11 +23,17 @@ header {
 #menu-list li a{
     text-decoration: none;
     color: black;
+    padding-right: 2em;
+  
 }
 #logo img a{
     display:flex;
     align-items: flex-start;
+
 } 
+#logo{
+     padding: 0.2em 1em;
+}
 
 #titre a h1:hover{
     font-weight: bold; color: blue;
@@ -36,14 +42,18 @@ header {
 
 #menu-list li a:hover{
 color: blue;
+background-color:darkcyan;
+border-radius: 60%;
+padding: 0.2em 1em;
+
 } 
 
      
-/* #menu-list{
+#menu-list{
     display: none;
     list-style: none;
     flex-direction: column;
-} */
+}
 
 #menu-list.active{
     display: flex;
@@ -84,24 +94,32 @@ border: none;
 }
 #contact{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     border-radius: 70%;
     background-color: darkcyan;
     opacity: 80%;
+    padding: 0.3em 1em;
     height: max-content;
     width: max-content;
     color: black;
+    border: none;
+   
 
-
-
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+    
 }
 #titre{
     display: flex;
     justify-content: center;
+    padding: 0.2em 1em;
     
 
 }
 #titre a{
    text-decoration: none; 
    color: black;
+    padding: 0em 1em;
 }

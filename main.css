@@ -46,7 +46,11 @@
     font-size: large;
     font-style:normal;
 }     
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #lien{
     justify-content: flex-end;
     display: flex;
@@ -59,7 +63,7 @@
 main{
     display: grid;
     background-color: lightblue;
-    
+     font-family: "Dancing Script", cursive;
 }
 
 .dancing-script {
@@ -69,9 +73,7 @@ main{
   font-style: normal;
 }
 
-main{
-    font-family: "Dancing Script", cursive;
-}
+
 .formulaire{
     display: flex;
     justify-content: center;
@@ -99,10 +101,6 @@ main{
 
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
 
 /* Next & previous buttons */
 .prev,

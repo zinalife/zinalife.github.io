@@ -1,7 +1,9 @@
 @media screen and (min-width: 600px){
     #menu-toggle{
         display: none;
+        justify-content: 2em;
     }
+
 #menu-list {
     display: flex;
     flex-direction: row;
