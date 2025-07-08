@@ -12,19 +12,21 @@ header {
 #menu-list {
     display: flex;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
    color: black;
-  
-   
     gap: 2rem;
     list-style: none;
     font-size: large;
     font-weight: 100;
+    
+}
+#menu-list li a{
+    text-decoration: none;
+    color: black;
 }
 #logo img a{
     display:flex;
     align-items: flex-start;
-
 } 
 
 #titre a h1:hover{
@@ -36,14 +38,12 @@ header {
 color: blue;
 } 
 
-
-
      
-#menu-list{
+/* #menu-list{
     display: none;
     list-style: none;
     flex-direction: column;
-}
+} */
 
 #menu-list.active{
     display: flex;
@@ -81,4 +81,27 @@ border: none;
 
 #menu-toggle.expanded .barre:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+}
+#contact{
+    display: flex;
+    justify-content: end;
+    border-radius: 70%;
+    background-color: darkcyan;
+    opacity: 80%;
+    height: max-content;
+    width: max-content;
+    color: black;
+
+
+
+}
+#titre{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#titre a{
+   text-decoration: none; 
+   color: black;
 }
