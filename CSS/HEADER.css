@@ -3,7 +3,7 @@ header {
     grid-template-columns: auto;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, rgb(75, 73, 73) 0%, rgb(61, 61, 241) 50%, rgb(110, 110, 167) 100%);
+    background: linear-gradient(135deg, rgb(131, 128, 111) 0%, rgb(202, 187, 98) 50%, rgb(228, 208, 98) 100%);
     font-size: larger;
     font-family: "Dancing Script", cursive;
     gap: 2em;
@@ -36,13 +36,13 @@ header {
 }
 
 #titre a h1:hover{
-    font-weight: bold; color: blue;
+    font-weight: bold; color: rgb(134, 103, 16);
 
 } 
 
 #menu-list li a:hover{
-color: blue;
-background-color:darkcyan;
+color: rgb(85, 63, 53);
+background-color:rgb(134, 103, 16);
 border-radius: 60%;
 padding: 0.2em 1em;
 
@@ -96,7 +96,7 @@ border: none;
     display: flex;
     justify-content: center;
     border-radius: 70%;
-    background-color: darkcyan;
+    background-color: rgb(134, 103, 16);
     opacity: 80%;
     padding: 0.3em 1em;
     height: max-content;
