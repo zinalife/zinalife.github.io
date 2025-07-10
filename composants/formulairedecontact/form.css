@@ -1,0 +1,41 @@
+main div form{
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 60px;
+    background-color: brown;
+    gap: 10px;
+    border-radius: 5%;
+
+
+}
+form{
+    background-color: beige;
+    display: grid;
+    justify-content: center;
+    padding: 5rem;
+    margin: 5em;
+    
+
+
+}
+#boutonenvoyer{
+    display: flex;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
