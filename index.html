@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../main.css">
+
+    <link rel="stylesheet" href="main.css">
+
 </head>
 
 <body>
@@ -13,6 +14,7 @@
 
     </header>
     <main>
+        <h1>Mon super Site</h1>
         <div class="dancing-script">
         </div>
         <div class="bienvenue">
@@ -27,83 +29,7 @@
             </div>
 
         </div>
-
-        <!-- Container pour les images en galerie -->
-        <h2 style="text-align:center">Galerie de photos</h2>
-        <div class="container">
-
-            <!-- Full-width images avec numéro de texte-->
-            <div class="mySlides">
-                <div class="numbertext">1 / 6</div>
-                <img src="assets/img_woods_wide.jpg" >
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">2 / 6</div>
-                <img src="assets/img_5terre.jpg" >
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">3 / 6</div>
-                <img src="assets/img_mountains.jpg" >
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">4 / 6</div>
-                <img src="assets/img_lights.jpg" >
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">5 / 6</div>
-                <img src="assets/img_nature.jpg" >
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">6 / 6</div>
-                <img src="assets/img_snow.jpg">
-            </div>
-
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-
-            <!-- Image text -->
-            <div class="caption-container">
-                <p id="caption"></p>
-            </div>
-
-            <!-- Thumbnail images -->
-            <div class="row">
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_woods_wide.jpg"  onclick="currentSlide(1)" alt="The Woods">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_5terre.jpg"  onclick="currentSlide(2)"
-                        alt="Cinque Terre">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_mountains.jpg" 
-                        onclick="currentSlide(3)" alt="Mountains and fjords">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_lights.jpg"  onclick="currentSlide(4)"
-                        alt="Northern Lights">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_nature.jpg"  onclick="currentSlide(5)"
-                        alt="Nature and sunrise">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="/assets/img_snow.jpg"   onclick="currentSlide(6)"
-                        alt="Snowy Mountains">
-                </div>
-            </div>
-        </div>
-
-
-
-
+        <section id="slider"></section>
         <div class="listes">
             <div class="list">
                 <img src="https://placehold.co/600x400" alt="Photos">
@@ -125,7 +51,8 @@
 
     </footer>
 </body>
-<script src="../zinalife.github.io/JS/footer.js"></script>
-<script src="../zinalife.github.io/JS/footer.js"></script>
-<script src="../zinalife.github.io/JS/slider.js"></script>
+<script src="composants/footer/footer.js"></script>
+<script src="composants/header/header.js"></script>
+<script src="composants/slider/slider.js"></script>
+
 </html>

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', chargerMenu);
 async function chargerMenu() {
   try {
     const header = document.getElementById('header');
-    const reponse = await fetch('/HTML/header.html');
+    const reponse = await fetch('/composants/header/header.html');
 
     if (!reponse.ok) {
       throw new Error('Erreur lors du chargement du menu');
@@ -26,4 +26,10 @@ async function chargerMenu() {
     // je bascule la classe "expanded" sur le bouton menuBtn, ce qui permet de changer son apparence
     menuToggle.classList.toggle("expanded");
 });
+
+const title = document.querySelector('h1').textContent;
+console.log(title);
+const baliseTitle = document.createElement('title');
+document.head.appendChild(baliseTitle);
+baliseTitle.textContent = title;
 }
